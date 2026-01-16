@@ -9,7 +9,7 @@
           <router-link to="/">首页</router-link>
           <router-link to="/articles">文章</router-link>
           <router-link to="/moments">朋友圈</router-link>
-          <a :href="siteSettings.github || siteConfig.github" target="_blank" class="github-link">
+          <a :href="siteSettings.github || siteSettings.github" target="_blank" class="github-link">
             <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />
           </a>
         </nav>
@@ -24,7 +24,7 @@
         <router-link to="/" @click="drawer = false">首页</router-link>
         <router-link to="/articles" @click="drawer = false">文章</router-link>
         <router-link to="/moments" @click="drawer = false">朋友圈</router-link>
-        <a :href="siteSettings.github || siteConfig.github" target="_blank" class="mobile-github">
+        <a :href="siteSettings.github || siteSettings.github" target="_blank" class="mobile-github">
           <el-icon><Platform /></el-icon> GitHub
         </a>
       </nav>
@@ -47,7 +47,6 @@
 <script setup>
 import { ref, reactive, onMounted } from 'vue'
 import { Menu, Platform } from '@element-plus/icons-vue'
-import { siteConfig } from '@/config/site'
 import {getSiteSettings } from '@/api/pocketbase'
 import 'element-plus/theme-chalk/display.css'
 
