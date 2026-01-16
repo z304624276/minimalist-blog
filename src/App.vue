@@ -39,7 +39,7 @@
     </main>
 
     <footer class="footer">
-      <p>© 2025 cookiesen. Powered by Vue 3 & Supabase.</p>
+     <p>© 2026 minimalist. Powered by Vue 3 & pocketbase.</p>
     </footer>
   </div>
 </template>
