@@ -1,10 +1,8 @@
-# Cookiesen Blog
+# minimalist Blog
 
-一个基于 **Vue 3 + Supabase** 的现代化个人博客系统，支持文章发布、朋友圈动态、后台管理等功能。
+一个基于 **Vue 3 + pocketbase** 的现代化个人博客系统，支持文章发布、朋友圈动态、后台管理等功能。
 
-## 在线预览
 
-🌐 **https://blog-six-lake-83.vercel.app**
 
 ---
 
